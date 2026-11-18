@@ -7,6 +7,13 @@ microtonal makam tuning, regional instrument voices, and usul/rhythm accompanime
 
 Live site: https://alekozamayan.github.io/kkey/  (GitHub Pages, deployed by Actions)
 
+## Start here (for Claude sessions)
+- **`docs/STATUS.md`** is the session handoff log: current release, decisions, environment notes and backlog.
+  Read it at the start (`/resume` skill) and update it before you finish.
+- Path-scoped conventions live in `.claude/rules/`. Skills: `/resume`, `/verify`, `/release`,
+  `/add-makam`, `/add-usul`, `/add-voice`.
+- Run `/verify` before every push. Release only through `/release`.
+
 ## Hard requirements
 
 - **Runs on iPhone Safari** with no App Store app. It must be an installable **PWA**
